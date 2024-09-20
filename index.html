@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>count</title>
+</head>
+<body>
+    <h1 id="Kattody">count is </h1>
+    <input type="button" name="count" value="Clickhere" onclick=CountElement() >
+
+    <script>
+        var count = 0;
+
+        function CountElement(){
+            count += 1
+            document.getElementById("Kattody").innerHTML = count  
+        }
+    </script>
+</body>
+</html>
